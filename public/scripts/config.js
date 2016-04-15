@@ -19,7 +19,7 @@ function config($stateProvider, $urlRouterProvider) {
             controller: 'ProfileController',
             templateUrl: 'views/profile/index.html'
         })
-    $urlRouterProvider.otherwise('/dashboard');
+    $urlRouterProvider.otherwise('/login');
 }
 
 config.$inject = ['$stateProvider', '$urlRouterProvider'];
